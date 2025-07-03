@@ -21,3 +21,13 @@ console.log(obj3); // {1: "a", 2: "b", 3: "a", 4: "b"}
 
 console.log(Object.keys(tinderUser)); // ["name", "id"]
 console.log(Object.values(tinderUser)); // ["Yash", 122]
+
+
+const course = {
+    name: "JavaScript",
+    price: 999,
+    courseinstructor: "yash"
+}
+
+const {courseinstructor: instructor} = course; // Destructuring
+console.log(instructor); // yash
